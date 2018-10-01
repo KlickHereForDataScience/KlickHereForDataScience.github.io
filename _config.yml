@@ -1,0 +1,38 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Klick Here for Data Science
+tagline:             Making Data Science Klick
+url:                 http://KlickHereForDataScience.github.io
+paginate:            2
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Gabe Klick
+  url:               https://www.linkedin.com/in/gabeklick/
+  email:             Gabe.Klick@gmail.com
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/KlickHereForData
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+# Page List
+pages_list:       
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/index.html'
